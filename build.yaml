@@ -1,6 +1,6 @@
 on:
   workflow_dispatch:
-    targets:
+  targets:
       $default:
         builders:
           json_serializable:
