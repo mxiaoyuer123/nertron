@@ -1,5 +1,4 @@
-on:
-  workflow_dispatch:
+workflow_dispatch:
   targets:
       $default:
         builders:
