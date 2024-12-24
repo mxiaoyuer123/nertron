@@ -1,0 +1,33 @@
+display_name: Nertron
+package_name: nertron
+maintainer:
+  name: nertron
+  email: linux@hiddify.com
+
+priority: optional
+section: x11
+installed_size: 6604
+essential: false
+icon: ./assets/images/source/ic_launcher_border.png
+
+postinstall_scripts:
+  - echo "Installed Nertron"
+postuninstall_scripts:
+  - echo "Surprised Why?"
+
+keywords:
+  - Nertron
+  - Proxy
+  - VPN
+  - V2ray
+  - Nekoray
+  - Xray
+  - Psiphon
+  - OpenVPN
+
+generic_name: Nertron
+
+categories:
+  - Network
+
+startup_notify: true
