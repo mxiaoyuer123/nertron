@@ -66,7 +66,7 @@ jobs:
             mv dist/*/*.$EXT tmp_out/${FILENAME}.$EXT
             ls tmp_out
             chmod +x tmp_out/${FILENAME}.$EXT
-            cp ./.github/help/linux/* tmp_out/
+            cp ./.github/linux/* tmp_out/
             mv tmp_out/${FILENAME}.$EXT out/
           done
 
